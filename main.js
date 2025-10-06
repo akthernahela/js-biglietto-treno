@@ -31,24 +31,30 @@ const basic = 0.21;
 console.log(basic);
 
 //Richiesta di informazioni per applicare il prezzo
-const kilometers = prompt('Quanti km vuole percorrere?');
-const age = prompt('Quanti anni ha?');
-console.log(kilometers, age);
+const kilometers = Number(prompt('Quanti km vuole percorrere?'));
+const age = Number(prompt('Quanti anni ha?'));
+console.log(kilometers);
+console.log(age);
 
 //Calcola il prezzo senza sconti (Km moltiplica per il prezzo base della corsa)
  //Uso let, dato che const non è flessibile 
 let finalPrice = kilometers * basic;
-console.log(finalPrice);
+
 
 //Applica gli sconti (usiamo if, else if, else)
-    if (age < 18) {
+    if (age < 18) { 
         //Prezzo per i minorenni scontato al 20%
-        finalPrice = ((finalPrice * 20) / 100);
-    } else if (age >= 65) {
+        finalPrice = (finalPrice - finalPrice * 20 / 100);
+       
+    } else if (age >= 65) { 
         //Prezzo per i over 65 anni scontato al 40%
-        finalPrice = ((finalPrice * 40) / 100);
-    } else { finalPrice = finalPrice }
+        finalPrice = (finalPrice - finalPrice * 40 / 100);
+        
+    }
 
 //Arrotonda il prezzo in due decimali per indicare i centesimi 
+const decimalFinal = finalPrice.toFixed(2);
 
 //Prezzo finale
+console.log(finalPrice);
+console.log(decimalFinal);
