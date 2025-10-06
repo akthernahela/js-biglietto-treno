@@ -25,3 +25,15 @@ provate a verificare quanto segue:
 //Il programma deve chiedere all'utente il numero di chilometri che vuole percorrere
 //Età del passeggero
 //Deve calcolare il prezzo totale del viaggio
+
+//Definisci il prezzo base del biglietto per kilometro
+
+//Richiesta di informazioni per applicare il prezzo
+
+//Calcola il prezzo senza sconti
+
+//Prezzo per i minorenni scontato al 20%
+
+//Prezzo per i over 65 anni scontato al 40%
+
+//Prezzo finale
