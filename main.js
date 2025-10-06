@@ -21,3 +21,7 @@ provate a verificare quanto segue:
 100km, 70 anni => prezzo corretto: €12.60
 
 */
+
+//Il programma deve chiedere all'utente il numero di chilometri che vuole percorrere
+//Età del passeggero
+//Deve calcolare il prezzo totale del viaggio
