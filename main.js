@@ -33,7 +33,9 @@ const basic = 0.21;
 const kilometers = prompt('Quanti km vuole percorrere?');
 const age = prompt('Quanti anni ha?');
 
-//Calcola il prezzo senza sconti
+//Calcola il prezzo senza sconti (Km moltiplica per il prezzo base della corsa)
+ //Uso let, dato che const non è flessibile 
+let finalPrice = kilometers * basic;
 
 //Applica gli sconti (usiamo if, else if, else)
     //Prezzo per i minorenni scontato al 20%
