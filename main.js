@@ -38,8 +38,11 @@ const age = prompt('Quanti anni ha?');
 let finalPrice = kilometers * basic;
 
 //Applica gli sconti (usiamo if, else if, else)
+    if (age < 18){}
     //Prezzo per i minorenni scontato al 20%
+    else if (age > 65){}
     //Prezzo per i over 65 anni scontato al 40%
+    else {}
 
 //Arrotonda il prezzo in due decimali per indicare i centesimi 
 
