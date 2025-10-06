@@ -32,8 +32,10 @@ provate a verificare quanto segue:
 
 //Calcola il prezzo senza sconti
 
-//Prezzo per i minorenni scontato al 20%
+//Applica gli sconti (usiamo if, else if, else)
+    //Prezzo per i minorenni scontato al 20%
+    //Prezzo per i over 65 anni scontato al 40%
 
-//Prezzo per i over 65 anni scontato al 40%
+//Arrotonda il prezzo in due decimali per indicare i centesimi 
 
 //Prezzo finale
