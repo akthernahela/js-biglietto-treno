@@ -27,6 +27,7 @@ provate a verificare quanto segue:
 //Deve calcolare il prezzo totale del viaggio
 
 //Definisci il prezzo base del biglietto per kilometro
+const basic = 0.21;
 
 //Richiesta di informazioni per applicare il prezzo
 
