@@ -30,6 +30,8 @@ provate a verificare quanto segue:
 const basic = 0.21;
 
 //Richiesta di informazioni per applicare il prezzo
+const kilometers = prompt('Quanti km vuole percorrere?');
+const age = prompt('Quanti anni ha?');
 
 //Calcola il prezzo senza sconti
 
